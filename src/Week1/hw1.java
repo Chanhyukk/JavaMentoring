@@ -10,7 +10,7 @@ public class hw1 {
         v = sc.nextDouble();
         System.out.print("저항을 입력하세요: ");
         r = sc.nextDouble();
-        double w = v * v / r;
+        double w = Math.pow(v,2) / r;
         double dbm = 10 * Math.log10(w) + 30;
         System.out.printf("데시벨 밀리와트: %.1f\n", dbm);
     }
