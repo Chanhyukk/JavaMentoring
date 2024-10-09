@@ -32,11 +32,11 @@ public class Car {
         if (this.gas >= gas) {
             setGas(this.gas - gas);
             System.out.println(getCarName() + " move, remain gas: " + getGas());
-            return gas;
+            return getGas();
         } else {
             setGas(this.gas);
             System.out.println(getCarName() + " out of fuel, remain gas: " + getGas());
-            return this.gas - gas;
+            return getGas() - gas;
         }
 
     }
