@@ -38,11 +38,11 @@ public class Car {
             System.out.println(getCarName() + " out of fuel, remain gas: " + getGas());
             return this.gas - gas;
         }
+
     }
     int refuel (int amount) {
         setGas(gas + amount);
         System.out.println("fuel amount: " + amount + ", resume fuel: " + getGas());
         return amount;
     }
-
 }
