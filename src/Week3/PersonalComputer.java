@@ -8,8 +8,8 @@ public class PersonalComputer {
         this.monitor = monitor;
     }
     public void turnOn() {
-        computer.powerButton();
-        System.out.println("Computer turn on");
+        System.out.println("Computer condition: " + computer.powerButton());
+        System.out.println("Monitor condition: " + monitor.powerButton());
     }
     public void printSpec() {
         System.out.println("Size: " + monitor.getSize());

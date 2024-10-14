@@ -9,4 +9,8 @@ public class Monitor {
     public int getSize() {
         return size;
     }
+    public boolean powerButton() {
+        power = true;
+        return power;
+    }
 }
