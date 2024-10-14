@@ -7,7 +7,11 @@ public class Computer {
         this.cpu = cpu;
     }
     public boolean powerButton() {
-        power = true;
+        if (power == false) {
+            power = true;
+        } else {
+            power = false;
+        }
         return power;
     }
     public String getCpu() {

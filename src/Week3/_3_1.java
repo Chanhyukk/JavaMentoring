@@ -7,5 +7,6 @@ public class _3_1 {
         PersonalComputer pc = new PersonalComputer(computer, monitor);
         pc.turnOn();
         pc.printSpec();
+        pc.turnOn();
     }
 }

@@ -10,7 +10,11 @@ public class Monitor {
         return size;
     }
     public boolean powerButton() {
-        power = true;
+        if (power == false) {
+            power = true;
+        } else {
+            power = false;
+        }
         return power;
     }
 }
